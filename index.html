@@ -2120,6 +2120,40 @@ and
   }
 }
 
+
+/* FINAL PHONE NAME FIT FIX */
+@media (max-width:700px) and (orientation:portrait){
+  .name-area{
+    left:50% !important;
+    width:100% !important;
+    max-width:100vw !important;
+    transform:translateX(-50%) !important;
+    padding-left:4px !important;
+    padding-right:4px !important;
+    overflow:visible !important;
+    text-align:center !important;
+  }
+  .name{
+    font-size:21vw !important;
+    line-height:.95 !important;
+    display:inline-block !important;
+    white-space:nowrap !important;
+    max-width:none !important;
+    padding-left:.06em !important;
+    padding-right:.06em !important;
+    padding-bottom:.24em !important;
+    margin:0 auto !important;
+    transform:scaleX(.94);
+    transform-origin:center center;
+  }
+}
+@media (max-width:390px) and (orientation:portrait){
+  .name{font-size:20vw !important;transform:scaleX(.93);}
+}
+@media (max-width:350px) and (orientation:portrait){
+  .name{font-size:19.5vw !important;transform:scaleX(.92);}
+}
+
 </style>
 </head>
 
